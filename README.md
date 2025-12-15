@@ -1,63 +1,86 @@
-# Social Image Resizer
+<h1 align="center">Social Image Resizer</h1>
+<h3 align="center">AI-Powered Image Optimization</h3>
 
-A modern web application designed to simplify the process of resizing and optimizing images specifically for various social media platforms. Built with React and TypeScript, this tool provides an intuitive interface, potentially leveraging AI capabilities through the Google Gemini API to ensure your visuals are perfectly tailored for sharing online.
+<p align="center">
+  <em>Resize and optimize images for social media platforms</em>
+</p>
 
-## Key Features
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/AI-412991?style=flat-square" alt="AI" />
+</p>
 
-*   **User-Friendly Interface**: Crafted with React for a responsive and seamless user experience, making image resizing straightforward.
-*   **AI-Powered Image Optimization**: Integrates with the Google Gemini API, suggesting intelligent adjustments for image quality, content-aware cropping, or optimal dimensions.
-*   **Social Media Presets**: Likely includes predefined dimensions and aspect ratios for popular platforms such as Instagram, Facebook, Twitter, LinkedIn, and more, streamlining your workflow.
-*   **Robust Development**: Developed using TypeScript, ensuring type safety, better maintainability, and fewer runtime errors.
+<p align="center">
+  :gb: <a href="#english">English</a> | :it: <a href="#italiano">Italiano</a>
+</p>
+
+---
+
+<a name="english"></a>
+## :gb: English
+
+### Overview
+
+An intuitive web application for resizing and optimizing images for various social media platforms. Features AI-powered adjustments and platform-specific presets.
+
+### Features
+
+- **Platform Presets** - Instagram, Facebook, Twitter, LinkedIn
+- **AI Adjustments** - Smart cropping and optimization
+- **Batch Processing** - Multiple images at once
+- **Format Conversion** - JPG, PNG, WebP support
+- **Preview** - Real-time preview before download
+
+### Quick Start
+
+```bash
+git clone https://github.com/fracabu/social-image-resizer.git
+cd social-image-resizer
+npm install
+npm run dev
+```
+
+---
+
+<a name="italiano"></a>
+## :it: Italiano
+
+### Panoramica
+
+Applicazione web intuitiva per ridimensionare e ottimizzare immagini per varie piattaforme social. AI per regolazioni e preset specifici per piattaforma.
+
+### Funzionalita
+
+- **Preset Piattaforma** - Instagram, Facebook, Twitter, LinkedIn
+- **Regolazioni AI** - Cropping e ottimizzazione smart
+- **Elaborazione Batch** - Multiple immagini insieme
+- **Conversione Formato** - Supporto JPG, PNG, WebP
+- **Anteprima** - Preview real-time prima del download
+
+### Avvio Rapido
+
+```bash
+git clone https://github.com/fracabu/social-image-resizer.git
+cd social-image-resizer
+npm install
+npm run dev
+```
+
+---
 
 ## Tech Stack
 
-*   **Frontend Framework**: React
-*   **Language**: TypeScript
-*   **Build Tool**: Vite
-*   **API Integration**: Google Gemini API
+- TypeScript, React
 
-## Getting Started
+## License
 
-Follow these instructions to set up and run the project locally on your machine.
+MIT
 
-### Prerequisites
+---
 
-Before you begin, ensure you have the following installed:
-
-*   [Node.js](https://nodejs.org/en/download/) (LTS version recommended)
-*   [npm](https://www.npmjs.com/get-npm) or [Yarn](https://yarnpkg.com/getting-started/install)
-
-### Installation
-
-1.  **Clone the repository** (replace `your-username` with the actual repository owner if cloning from a specific source):
-    ```bash
-    git clone https://github.com/your-username/social-image-resizer.git
-    cd social-image-resizer
-    ```
-2.  **Install dependencies**:
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
-
-### Environment Variables
-
-Create a `.env` file in the root of your project directory. This project requires a Google Gemini API key.
-
-```
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
-```
-Replace `YOUR_GEMINI_API_KEY_HERE` with your actual API key obtained from Google Cloud Console.
-
-### Running the Project
-
-To start the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-The application will typically be accessible in your web browser at `http://localhost:5173` (or another port specified by Vite if `5173` is in use).
+<p align="center">
+  <a href="https://github.com/fracabu">
+    <img src="https://img.shields.io/badge/Made_by-fracabu-8B5CF6?style=flat-square" alt="Made by fracabu" />
+  </a>
+</p>
